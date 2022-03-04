@@ -1,0 +1,91 @@
+body { 
+    margin: 0px;
+}
+
+.menucontainer{
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;  
+}
+.header{
+    display: flex;
+    height: 10px;
+    padding: 5px;
+    padding-bottom: 80px;
+    background-color: black;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+}
+.nav{
+    height: 30px;
+    width: 100%; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    color: rgb(248, 240, 226);
+    font-weight: 600;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    height: 50px !important;
+}
+a:hover{
+    background-color: rgba(255, 0, 0, 0.534); 
+}
+.focus a{
+    border: 1px solid whitesmoke;
+    border-radius: 0;
+}
+.order a{
+    color: black;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 0;
+}
+.order a:hover{
+    background-color: rgba(255, 0, 0, 0.534);
+    color: whitesmoke;
+}
+.logo a:hover{
+    background-color:rgba(255, 255, 255, 0)
+}
+.menunavitems {
+    display: flex;
+    overflow: hidden;
+    height: 50px;
+    width: 100%; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuIconWrap{
+    display: flex;
+    flex-direction: column;
+    height: 15px;
+    justify-content: space-between;
+    display: none;
+}
+.line{
+    width:22px;
+    height:1px;
+    background-color: white;
+}

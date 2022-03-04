@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.landingPage{
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/Noodles.jpg) no-repeat center center;
+    background-position: cover;
+    background-size:cover;
+}
+.landingPage2{
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgba(250, 6, 6, 0.116);
+    display: flex;
+    flex-direction: column; 
+}
+.header{
+    /* position: fixed; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 50rem 5rem;
+    column-gap: 4rem;
+    background-color:black;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+    background-color:purple;
+}
+.navBar{
+    height: 80px;
+    background-color:white;
+}
+.navLinks{
+    background-color:red;
+}
+.menuIcon{
+    height: 80px;
+    background-color:yellow;
+}
+.welcomeWrap{
+    background-color:lightsalmon;
+}
+.welcomeMessage{
+    background-color:green;
+}
+.motto{
+    background-color:palevioletred;
+}
+.LoginButton{
+    background-color:hotpink;
+}
+.navSummaryWrap{
+    background-color:darkorchid;
+}
+.menuWrap{
+    background-color:sienna;
+}
+.dealsWrap{
+    background-color:olive;
+}
+.footerWrap{
+    background-color: peru;
+}

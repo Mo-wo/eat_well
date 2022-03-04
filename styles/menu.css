@@ -1,0 +1,157 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cinzel+Decorative:wght@400;700;900&family=
+Cinzel:wght@400;500;600&family=EB+Garamond:ital@0;1&family=Redressed&display=swap');
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Redressed', cursive;
+#navBarHome a{
+    /*padding: 30px;*/
+
+/* .summaryImage{
+    width:675px;
+    height:696px;
+} */
+
+body { 
+    margin: 0px;
+    padding: 0px;
+}
+
+.menucontainer{
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;  
+}
+.header{
+    display: flex;
+    height: 90px;
+    padding: 10px;
+    /* position: fixed; */
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+    padding-left: 5px;
+}
+.nav{
+    height: 50px;
+    width: 100%; 
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.navlink{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Cinzel', serif;
+    color: rgb(248, 240, 226);
+    font-weight: 600;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    height: 50px !important;
+}
+.navlink:hover{
+    background-color: rgba(255, 0, 0, 0.534); 
+}
+.focus a{
+    border: 1px solid whitesmoke;
+    border-radius: 0;
+}
+.order a{
+    color: black;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 0;
+}
+.order a:hover{
+    background-color: rgba(255, 0, 0, 0.534);
+    color: whitesmoke;
+}
+.logo a:hover{
+    background-color:rgba(255, 255, 255, 0)
+}
+.menunavitems {
+    display: flex;
+    overflow: hidden;
+    height: 50px;
+    width: 100%; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuIconWrap{
+    display: flex;
+    flex-direction: column;
+    height: 15px;
+    justify-content: space-between;
+    display: none;
+}
+.line{
+    width:22px;
+    height:1px;
+    background-color: white;
+}
+.fullmenu{
+    /* width: 100%; */
+    /* min-height: ; */
+    display: flex;
+    border: solid 1px red;
+    margin:  50px 50px 0px 50px;
+}
+.menu-aside{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 0px;
+    justify-content: space-around;
+    background-color:rgb(233, 17, 17);
+}
+.menu-side-bar{
+    /* background-color: turquoise; */
+    align-self: center;
+}
+.side-list .side-list-link{
+    font-family:'EB Garamond', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    /* background-color: darkgreen; */
+}
+.menu-desc{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 20px;
+}
+.food-item-desc{
+    display: flex;
+    flex-direction: column;
+    /* width: ; */
+}
+.food-item-pic{
+    /* background-image: url(../images/Boiled\ yam.jpg); */
+    width: 300px;
+    height: 200px;
+}
+.image-caption{
+    font-family:'EB Garamond', serif;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: center;
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/signin.css">
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital@0;1&family=Redressed&display=swap"
+        rel="stylesheet">
+    <title>Eat Well</title>
+</head>
+
+<body>
+    <div class="registerformwrap">
+        <div class="registerformwrap2">
+            <span class="closebtn">X</span>
+            <div class="signin">
+                <span class="signuptext">Sign Up</span>
+                <div class="altsignupcontainer">
+                    <div class="altsignup">
+                        <div class="altbutton">
+                            <button class="altsignupbutton" type="button">
+                                <span><img class="altsignupicon" src="./images/google-removebg-preview.png"
+                                        alt="google-icon"></span>
+                                <span class="altlabel">Sign up with Google</span>
+                            </button>
+                        </div>
+                        <div class="altbutton">
+                            <button class="altsignupbutton" type="button">
+                                <span><img class="altsignupicon" src="./images/appleicon-removebg-preview.png"
+                                        alt="apple-icon"></span>
+                                <span class="altlabel">Sign up with Apple</span>
+                            </button>
+                        </div>
+                        <div class="altbutton">
+                            <button class="altsignupbutton" type="button">
+                                <span><img class="altsignupicon" src="./images/facebook-removebg-preview.png"
+                                        alt="facebook-icon"></span>
+                                <span class="altlabel">Sign up with Facebook</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="signup">
+                    <form class="signupform" action="signin" method="post" autocomplete="on" target="_self" novalidate
+                        name="signupform">
+                        <label for="mail">Email</label><input class="signupinput" type="text" name="mail"
+                            placeholder="Enter email address">
+                        <label for="password">Password</label><input class="signupinput" type="text" name="password"
+                            placeholder="Enter password">
+                        <div class="signupbutton">
+                            <input class="signupsubmit" type="submit" value="Sign Up">
+                        </div>
+                    </form>
+                    <br>
+                    <div>
+                        <span class="loginmsg"> Already have an account?</span>
+                            <span class="loginlink">Login</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--------------------------------------------Login Form--------------------------->
+            <div class="signupwrap">
+                <span class="signuptext">Login</span>
+                <div class="altsignupcontainer">
+                    <div class="altsignup">
+                        <div class="altbutton">
+                            <button class="altsignupbutton" type="button">
+                                <span><img class="altsignupicon" src="./images/google-removebg-preview.png"
+                                        alt="google-icon"></span>
+                                <span class="altlabel">Login with Google</span>
+                            </button>
+                        </div>
+                        <div class="altbutton">
+                            <button class="altsignupbutton" type="button">
+                                <span><img class="altsignupicon" src="./images/appleicon-removebg-preview.png"
+                                        alt="apple-icon"></span>
+                                <span class="altlabel">Login with Apple</span>
+                            </button>
+                        </div>
+                        <div class="altbutton">
+                            <button class="altsignupbutton" type="button">
+                                <span><img class="altsignupicon" src="./images/facebook-removebg-preview.png"
+                                        alt="facebook-icon"></span>
+                                <span class="altlabel">Login with Facebook</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="signup">
+                    <form class="signupform" action="signin" method="post" autocomplete="on" target="_self" novalidate
+                        name="signupform">
+                        <label for="mail">Email</label><input class="signupinput" type="text" name="mail"
+                            placeholder="Enter email address">
+                        <label for="password">Password</label><input class="signupinput" type="text" name="password"
+                            placeholder="Enter password">
+                        <div class="signupbutton">
+                            <input class="signupsubmit" type="submit" value="Login">
+                        </div>
+                    </form>
+                    <br>
+                    <div>
+                        <span class="loginmsg"> Don't have an account?</span>
+                            <span class="signuplink">Sign up</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------Home Page--------------------------------->
+    <div class="container">
+        <div class="container2">
+            <!-----------------------------------Header--------------------------------->
+            <div class="header">
+                <div class="logo">
+                    <a href="./index.html" class="index"><img class="logo" src="./images/logo.jpg"
+                            alt="Eat Well Logo"></a>
+                </div>
+                <!-----------------------------------Nav Bar--------------------------------->
+                <div class="nav">
+                    <div class="menunavitems">
+                        <span><a href="./menu.html" class="navlink">Menu</a></span>
+                        <span class="hidemenunavitem"><a href="./deals.html" class="navlink">Deals</a></span>
+                        <span class="hidemenunavitem"><a href="./gallery.html" class="navlink">Gallery</a></span>
+                        <span><a href="./about.html" class="navlink"> About Us</a></span>
+                        <span><a href="./contact.html" class="navlink">Contact</a></span>
+                        <span class="order"><a href="./order.html" class="navlink">Order</a></span>
+                    </div>
+                    <!-----------------------------------Menu Icon--------------------------------->
+                    <div class="menuIconWrap">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <!-----------------------------------Welcome Text--------------------------------->
+            <div class="welcomewrap">
+                <div class="welcomecontent">
+                    <span class="welcome">Welcome to Eat Well</span>
+                    <span class="subwelcome">your tummy, our worry</span>
+                </div>
+                <!-----------------------------------Login Button-------------------------------------->
+                <div class="buttonhome">
+                    <button class="signinbutton"type="button">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------Menu Summary------------------------------------------>
+    <div class="navsummary navreverse">
+        <div class="navsummarycontent">
+            <span class="summary">Menu</span><br>
+            <span class="subsummary">Eat Well serves Nigerian dishes, snacks, grills and refreshing drinks...</span>
+            <div class="navsummarybutton">
+                <button type="button" class="summarybutton">Explore Menu</button>
+            </div>
+        </div>
+        <div class="menusummaryimage"></div>
+    </div>
+    <!-----------------------------------Place Order Summary--------------------------------->
+    <div class="navsummary navwrap">
+        <div class="ordersummaryimage"></div>
+        <div class="navsummarycontent">
+            <span class="summary">Place Order</span><br>
+            <span class="subsummary">Have any item on our menu delivered to your doorstep</span>
+            <div class="navsummarybutton">
+                <button type="button" class="summarybutton">Order Now</button>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------Deals Summary---------------------------------------->
+    <div class="navsummary navreverse">
+        <div class="navsummarycontent">
+            <span class="summary">Deals</span><br>
+            <span class="subsummary">Create an account and follow us on our channels, to stay informed on Eat Well deals
+                and offers</span>
+            <div class="navsummarybutton">
+                <button type="button" class="summarybutton">Create Account Now</button>
+            </div>
+        </div>
+        <div class="dealsummaryimage"></div>
+    </div>
+    <!-----------------------------------About Summary--------------------------------------->
+    <div class="navsummary navwrap">
+        <div class="aboutsummaryimage"></div>
+        <div class="navsummarycontent">
+            <span class="summary">About Us</span><br>
+            <span class="subsummary">Eat Well is a fast casual restaurant...</span>
+            <div class="navsummarybutton">
+                <button type="button" class="summarybutton">Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------Gallery Summary--------------------------------->
+    <div class="navsummary navreverse">
+        <div class="navsummarycontent">
+            <span class="summary">Gallery</span><br>
+            <span class="subsummary">Take a tour of Eat Well's memorable moments. You can also leave a review for
+                us</span>
+            <div class="navsummarybutton"><button type="button" class="summarybutton">Take a Tour</button></div>
+        </div>
+        <div class="gallsummaryimage"></div>
+    </div>
+
+    <!-----------------------------------Footer Section--------------------------------->
+    <div class="footersection">
+        <div class="footer">
+            <div class="linksection">
+                <img src="./images/logo-removebg.png" class="footerlogo" alt="Eat Well Logo">
+                <div class="footerimage">
+                    <!-- <img class="contacticon" src="./images/pin-removebg-preview.png" alt="Location Icon">-->
+                    <a href="https://www.instagram.com/eatwellbyquerida/"><img class="footericon"
+                            src="./images/facebook-512.png" alt="Facebook Icon"></a>
+                    <a href="https://www.instagram.com/eatwellbyquerida/"><img class="footericon"
+                            src="./images/download__6_-removebg-preview.png" alt="Twitter Icon"></a>
+                    <a href="https://www.instagram.com/eatwellbyquerida/"><img class="footericon"
+                            src="./images/download__10_-removebg-preview.png" alt="Instagram Logo"></a>
+                    <a href="https://www.instagram.com/eatwellbyquerida/"><img class="footericon"
+                            src="./images/download__6_-removebg-preview (1).png" alt="Whatsapp Icon"></a>
+                    <!-- <img class="contacticon" src="../images/email_icon_coloured-removebg-preview.png" alt="Email Icon">-->
+                </div>
+            </div>
+            <div class="footerlink">
+                <div class="linkheading">
+                    <p><a href="./menu.html" class="footerlinks"> Menu</a></p>
+                    <div class="linklist">
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Meals</a></span>
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Combos</a></span>
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Snacks</a></span>
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Drinks</a></span>
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Grills</a></span>
+                    </div>
+                </div>
+                <div class="linkheading">
+                    <p><a href="./menu.html" class="footerlinks">Deals</a></p>
+                    <div class="linklist">
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Combo Deals</a></span>
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Deals of the Month</a></span>
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Happy Hour</a></span>
+                    </div>
+                </div>
+                <div class="linkheading">
+                    <p><a href="./menu.html" class="footerlinks"> Order</a></p>
+                    <div class="linklist">
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Make Reservation</a></span>
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Pick-up in Store</a></span>
+                        <span class="listitem"><a href="./menu.html" class="footerlinks">Doorstep Delivery</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="newsletterform">
+                <span class="backtotop"><a href="./index.html" class="footerlinks"> Back to top &nbsp;^</a></span>
+                <span class="newslettertext">Subscribe to our newsletter to stay informed <br> on
+                    amazing deals and offers
+                </span>
+                <form class="subscribeform" action="emailsignup" method="post" autocomplete="on">
+                    <input class="newsletterinput" type="text" placeholder="Enter email address" name="mail">
+                    <div class="subscribebutton">
+                        <input class="subscribe" type="submit" value="Subscribe">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="legalterms">
+            <span><a href="./menu.html" class="footerlinks">&nbsp;Privacy &nbsp;</span></a>|
+            <span><a href="./menu.html" class="footerlinks">&nbsp;Terms of Use &nbsp;</span></a>|
+            <span><a href="./menu.html" class="footerlinks">&nbsp;Cookies Policy &nbsp;</span></a>|
+            <span class="copyright">&nbsp;&copy Eat Well 2021</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="./scripts/index.js"></script>
+</body>
+
+</html>
